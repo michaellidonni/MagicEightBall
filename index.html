@@ -16,6 +16,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xcx4ynx.css">
   </head>
 
   <body>
@@ -25,19 +27,19 @@
     <main>
       <div id="magic-8-ball" class="container text-center my-auto">
         <h1 id="greeting">Magic 8 Ball</h1>
-        <div id="response-text">Ask a question!</div>
+        <div class="mt-3 "id="response-text">Ask a question!</div>
         <div class="row">
           <div class="col-12">
             <img
               id="response-image"
-              class="img-fluid"
+              class="img-fluid mt-3"
               src="imgs/blank-8ball.png"
               alt=""
             />
           </div>
         </div>
         <div class="row">
-          <div class="col-12 mt-3">
+          <div class="col-12 mt-5">
             <button onclick="shakeMagic8Ball()" class="btn btn-primary">
               Shake the Magic 8 Ball!
             </button>
